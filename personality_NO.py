@@ -1,3 +1,4 @@
+import time 
 name = "Nick"
 state = "California"
 book = "The Giver"
@@ -12,11 +13,19 @@ print (name + " watches " + tvshow + " and reads " + book)
 
 
 print("What's your favorite color?")
-color = input()\
+color = input()
 
 
-if color == "blue"
+if color == "blue":
     print("Blue is my favorite!")
 else:
     print(color + " is nice too. " )
+
+
+
+pring("What's you favorite sportsteam?")
+sportsteam = input()
+
+time.sleep(60)
+
 
